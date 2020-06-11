@@ -2,7 +2,7 @@ class Translation(object):
     START_TEXT = """Merhaba! Ben bir telegram URL Yükleme Botuyum.
 <b>Lütfen bana bir direkt indirme linki gönderin, telegrama video/dosya şeklinde gönderebilirim.</b>
 Daha fazla detay için /help yazın.
-Support : @thebotmaker0 """
+Support : @whitedoton """
     RENAME_403_ERR = "Üzgünüm, bu dosyayı yeniden adlandırma izniniz yok."
     ABS_TEXT = " Lütfen bencil olma."
     UPGRADE_TEXT = ""
