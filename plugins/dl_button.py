@@ -233,7 +233,7 @@ async def ddl_call_back(bot, update):
                     )
                 )
             else:
-                logger.info("Did this happen? :\\")
+                logger.info("Oldu mu? :\\")
             end_two = datetime.now()
             try:
                 os.remove(download_directory)
@@ -268,7 +268,7 @@ async def download_coroutine(bot, session, url, file_name, chat_id, message_id, 
         await bot.edit_message_text(
             chat_id,
             message_id,
-            text="""Initiating Download
+            text="""İndirme Başlatılıyor...
 URL: {}
 Dosya Boyutu: {}""".format(url, humanbytes(total_length))
         )
@@ -293,7 +293,7 @@ Dosya Boyutu: {}""".format(url, humanbytes(total_length))
 URL: {}
 Dosya Boyutu: {}
 İndirilen: {}
-Geçen Süre: {}""".format(
+Kalan Süre: {}""".format(
     url,
     humanbytes(total_length),
     humanbytes(downloaded),
